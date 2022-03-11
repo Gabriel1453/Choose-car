@@ -1,0 +1,220 @@
+body{
+    background-color: #eee;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width:950px;
+    
+    
+}
+
+header{
+    background-color: #607196;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.title{
+    display: flex;
+    color: #fff;
+
+}
+.title h1{
+    display: flex;
+}
+
+.firstname{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.lastname{
+    font-family: 'Redressed', cursive;;
+    font-weight:lighter ;
+    margin-left: 4px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+
+nav ul, nav li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#corpo1{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+   
+}
+
+
+fieldset{
+    border: 0px;
+    padding-left: 0%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+label{
+    color: #607196;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.2em;
+}
+
+.titulo-label{
+    
+    background-color: #ddd;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-left: 10px;
+    
+    font-size: 20px;
+}
+
+input[type="text"], input[type="email"]{
+    width: 250px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #607196;
+    box-shadow: 3px 3px 3px #aaa;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.area1{
+    background-color: #ddd;
+    padding: 50px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 10px 20px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.especificos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+}
+
+.t2{
+  margin-bottom: 10px;
+  font-size: 20px;  
+}
+.text1{
+    display:flex;
+    flex-direction: column;
+}
+textarea{
+    height: 250px;
+    resize: none;
+    border-radius: 8px;
+    border:4px solid#607196;
+    box-shadow: 3px 3px 3px #aaa;
+}
+
+.but{
+    display: flex;
+}
+
+button{
+    margin-top: 10px;
+    border:2px solid #607196 ;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #aaa;
+    color: #607196;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 35px;
+    width: 65px;
+    margin-bottom: 20px;
+
+}
+a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+input[type="text"]:hover{
+    background-color: #eee;
+}
+input[type="email"]:hover{
+    background-color: #eee;
+}
+textarea:hover{
+    background-color: #eee;
+}
+button:hover{
+    background-color: #607196;
+    color: #fff;
+   
+}
+ footer{
+     display:flex ;
+     height: 50px;
+     justify-content: center;
+     align-items: center;
+     border-top:2px solid#607196;
+ }
+ .direitos{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     color: #607196;
+ }
+
+
+
+
+
